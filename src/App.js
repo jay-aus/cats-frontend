@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import React from "react";
+import Dropdown from "./components/dropdown/Dropdown";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Welcome to our cats dashboard</h1>
+      <h2>This dashboard will give you the top 5 breeds of cats based on your selection from the available dropdown options. Please select an option below to see the results</h2>
+       <Dropdown/>
     </div>
   );
 }

@@ -1,0 +1,41 @@
+.dropdown-comp {
+    padding: 2rem;
+    color: green;
+  }
+  
+  .table-container {
+    margin-top: 3rem;
+  }
+  
+  .my-component {
+    padding: 2rem;
+  }
+  
+  .select {
+    width: 100%;
+  }
+  
+  .select__value {
+    background-color: #f8f9fa;
+    color: #212529;
+    padding: 2rem;
+    border:chartreuse;
+  }
+  
+  .select__control {
+    border-color: green;
+    box-shadow: none;
+    &:hover {
+        border-color: #adb5bd;
+    }
+  }
+  
+  .select__option--is-selected {
+    background-color: #f8f9fa;
+    color: #212529;
+  }
+  
+  .select__option--is-focused {
+    background-color: #e9ecef;
+  }
+  
